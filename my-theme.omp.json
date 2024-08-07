@@ -28,9 +28,8 @@
           "powerline_symbol": "\ue0b0",
           "properties": {
             "branch_icon": "",
-            "fetch_stash_count": true,
             "fetch_status": true,
-            "fetch_upstream_icon": true
+            "branch_identical_icon": ""
           },
           "style": "powerline",
           "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
