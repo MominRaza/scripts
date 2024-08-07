@@ -13,7 +13,7 @@
             "style": "full"
           },
           "style": "powerline",
-          "template": " \uf07c {{ .Path }} ",
+          "template": " {{ .Path }} ",
           "type": "path"
         },
         {
@@ -27,7 +27,7 @@
           "foreground": "black",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "branch_icon": "\uf126 ",
+            "branch_icon": "",
             "fetch_stash_count": true,
             "fetch_status": true,
             "fetch_upstream_icon": true
@@ -42,5 +42,5 @@
   ],
   "final_space": true,
   "version": 2,
-  "auto_upgrade": true
+  "disable_notice": true
 }
