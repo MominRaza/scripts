@@ -20,7 +20,7 @@
         },
         {
           "properties": {
-            "branch_icon": "",
+            "branch_icon": "\ue725 ",
             "branch_identical_icon": "",
             "cache_duration": "none",
             "fetch_status": true
