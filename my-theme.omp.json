@@ -6,6 +6,13 @@
       "alignment": "left",
       "segments": [
         {
+          "type": "text",
+          "template": " \ufdfd  ",
+          "style": "powerline",
+          "foreground": "white",
+          "background": "magenta"
+        },
+        {
           "properties": {
             "cache_duration": "none",
             "home_icon": "~",
