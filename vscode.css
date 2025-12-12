@@ -6,21 +6,3 @@
 .titlebar-left>.window-appicon {
   display: none;
 }
-
-[id="workbench.parts.auxiliarybar"] {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-
-  >:nth-last-child(2) {
-    flex: 1;
-  }
-
-  >:last-child {
-    display: none !important;
-  }
-}
-
-[id="workbench.panel.chat"] .split-view-view {
-  height: 100% !important;
-}
