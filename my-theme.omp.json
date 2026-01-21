@@ -29,7 +29,8 @@
             "branch_icon": "\ue725 ",
             "branch_identical_icon": "",
             "fetch_status": true,
-            "tag_icon": "\uF412 "
+            "tag_icon": "\uF412 ",
+            "commit_icon": "\uF417 "
           },
           "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
           "foreground": "black",
