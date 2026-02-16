@@ -1,0 +1,28 @@
+.skinHeader:not(.osdHeader),
+.skinHeader.semiTransparent {
+    backdrop-filter: blur(6px) !important;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 1000px) {
+    .headerTabs {
+        margin-top: -4.3em;
+        align-self: center;
+        width: auto;
+    }
+
+    .libraryPage:not(.noSecondaryNavPage) {
+        padding-top: 4.6em !important;
+    }
+}
+
+.cardScalable {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+[data-mediatype="Audio"] {
+    .cardScalable {
+        aspect-ratio: 1;
+    }
+}
